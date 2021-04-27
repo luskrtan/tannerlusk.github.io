@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Raleway, sans-serif;
+    background-color: lightgray;
+
+}
+
+header {
+    background-color:rgb(88 , 87, 67);
+    height: 25%;
+    font-size: 70px;
+    padding-left: 50px;
+    
+
+}
+
+.index-profilepicture {
+    width: 20%;
+    float: right;
+    
+
+    
+}
+
+footer {
+    background-color:rgb(88 , 87, 67);
+    height: 25%;
+    font-size: 70px;
+    padding-left: 50px;
+    
+
+}

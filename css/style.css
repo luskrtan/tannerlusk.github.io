@@ -1,33 +1,43 @@
 body{
     width: 100%;
+    max-width: 900px;
     height: 100%;
     font-family: Raleway, sans-serif;
     background-color: lightgray;
+    
 
 }
 
 header {
+
     background-color:rgb(88 , 87, 67);
     height: 25%;
     font-size: 70px;
     padding-left: 50px;
+    color: lightgray;
+    border-radius: 15px 15px 15px 15px;
     
 
 }
 
-.index-profilepicture {
-    width: 20%;
+header img {
+    width: 25%;
+    border: 3px rgb(88 , 87, 67);
     float: right;
-    
-
-    
+    margin-top: 30px;
+    margin-right: 70px;
+    border-radius: 20px 20px 20px 20px;  
 }
 
 footer {
+    
+    width: 100%;
+    max-width: 900px;
     background-color:rgb(88 , 87, 67);
-    height: 25%;
-    font-size: 70px;
-    padding-left: 50px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 15px 15px 15px 15px;
+    color: lightgray;
     
 
 }

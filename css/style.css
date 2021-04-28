@@ -41,3 +41,7 @@ footer {
 a {
   color: rgba(255, 0, 0, 0.808);
 }
+
+.index-subheading {
+    border-bottom: 3px solid rgb(88, 87, 67);
+}

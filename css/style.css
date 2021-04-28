@@ -1,52 +1,43 @@
-body{
-    width: 100%;
-    max-width: 900px;
-    height: 100%;
-    font-family: Raleway, sans-serif;
-    background-color: lightgray;
-    margin: 0 auto;
-    
-    
-
+body {
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  font-family: Raleway, sans-serif;
+  background-color: lightgray;
+  margin: 0 auto;
 }
 
 header {
-
-    background-color:rgb(88 , 87, 67);
-    height: 25%;
-    font-size: 70px;
-    padding-left: 50px;
-    color: lightgray;
-    border-radius: 15px 15px 15px 15px;
-    
-
+  background-color: rgb(88, 87, 67);
+  height: 25%;
+  font-size: 70px;
+  padding-left: 50px;
+  color: lightgray;
+  border-radius: 15px 15px 15px 15px;
 }
 
 header img {
-    width: 25%;
-    border: 3px rgb(88 , 87, 67);
-    float: right;
-    margin-top: 30px;
-    margin-right: 70px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 10px 10px 20px rgb(88 , 87, 67);  
+  width: 25%;
+  border: 3px rgb(88, 87, 67);
+  float: right;
+  margin-top: 30px;
+  margin-right: 70px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 10px 10px 20px rgb(88, 87, 67);
 }
 
 footer {
-    
-    width: 100%;
-    max-width: 900px;
-    background-color:rgb(88 , 87, 67);
-    height: 40px;
-    font-size: 15px;
-    border-radius: 15px 15px 15px 15px;
-    color: lightgray;
-    
-    text-align: center;
-    
+  width: 100%;
+  max-width: 900px;
+  background-color: rgb(88, 87, 67);
+  height: 40px;
+  font-size: 15px;
+  border-radius: 15px 15px 15px 15px;
+  color: lightgray;
 
+  text-align: center;
 }
 
 a {
-    color: red;
+  color: rgba(255, 0, 0, 0.808);
 }

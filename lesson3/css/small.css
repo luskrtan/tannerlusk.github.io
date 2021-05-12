@@ -1,37 +1,95 @@
+body{
+    width: 100%;
+    max-width: 1200px ;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color:rgba(16, 29, 66, 1);
+}
+ h3{
+    font-family: 'Archivo Black', sans-serif;
+    color:rgba(71, 88, 65, 1);
+    font-size: 20px;
+}
 header{
     width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    
+    font-family: 'Archivo Black', sans-serif;
+    background-color: rgba(16, 29, 66, 1);
+    color: rgba(204, 218, 209, 1);
+    padding-top: 10px;
+    text-align: center;   
 }
-header h1, h2, h3 {
-    text-align: center;
-}
+
+
+
+
 nav ul{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items:center;
     background-color: rgba(129, 82, 63, 1);
+    font-family: 'Tienne', serif;
     
-}
+    
+    }
 
+nav ul li{
+    text-align: left;
+    height: 40px;
+    padding-top: 20px;
+    color: rgba(204, 218, 209, 1);
+}    
+
+p {
+    color: rgba(71, 88, 65, 1);
+    font-size: 18px;
+    max-width: 50%;
+}
 
 ul{
     list-style-type: none;
 }
 
 a{
-    color: rgba(214, 214, 177, 1);
+    color: rgba(204, 218, 209, 1);
     text-decoration: none;
 }
 
-a:hover{
-    color: rgba(184, 212, 227, 1);
-    background-color: rgba(16, 29, 66, 1);
-    font-size: 18px;
+footer{
+    font-family: 'Tienne', serif;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    color: rgba(71, 88, 65, 1);
+    background-color: rgba(204, 218, 209, 1);
 }
+footer a{
+    color: rgba(16, 29, 66, 1);
+}
+
+
+a:hover{
+    color: rgba(71, 88, 65, 1);
+    background-color: rgba(163, 119, 116, 1); 
+    font-size: 18px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+footer a:hover{
+    font-size: 16px;
+    
+}
+
+#sitelogo{
+    width: 150px;
+}
+
+
 
 /*
 SCSS RGB *
@@ -40,6 +98,10 @@ $columbia-blue: rgba(184, 212, 227, 1);
 $coffee: rgba(129, 82, 63, 1);
 $oxford-blue: rgba(16, 29, 66, 1);
 $rifle-green: rgba(71, 88, 65, 1);
+$ash-gray: rgba(204, 218, 209, 1);
+$burnished-brown: rgba(163, 119, 116, 1);
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Tienne', serif;
 */
 
 

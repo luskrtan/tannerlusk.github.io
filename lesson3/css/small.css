@@ -6,11 +6,7 @@ body{
     background-color: white;
     color:rgba(16, 29, 66, 1);
 }
- h3{
-    font-family: 'Archivo Black', sans-serif;
-    color:rgba(71, 88, 65, 1);
-    font-size: 20px;
-}
+
 header{
     width: 100%;
     max-width: 1200px;
@@ -23,28 +19,29 @@ header{
     text-align: center;   
 }
 
-
-
-
 nav ul{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: rgba(129, 82, 63, 1);
     font-family: 'Tienne', serif;
-    
-    
-    }
+}
+h3{
+    font-family: 'Archivo Black', sans-serif;
+    color:rgba(71, 88, 65, 1);
+    font-size: 20px;
+}
 
 nav ul li{
     text-align: left;
-    height: 40px;
+    height: 60px;
     padding-top: 20px;
     color: rgba(204, 218, 209, 1);
+    font-size: 40px;
 }    
 
 p {
-    color: rgba(71, 88, 65, 1);
+    color: rgba(16, 29, 66, 1);
     font-size: 18px;
     max-width: 50%;
 }
@@ -76,7 +73,7 @@ footer a{
 a:hover{
     color: rgba(71, 88, 65, 1);
     background-color: rgba(163, 119, 116, 1); 
-    font-size: 18px;
+    font-size: 41px;
     font-family: 'Archivo Black', sans-serif;
 }
 

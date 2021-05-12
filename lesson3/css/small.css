@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header h1, h2, h3 {
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+    background-color: rgba(129, 82, 63, 1);
+    
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: rgba(214, 214, 177, 1);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(184, 212, 227, 1);
+    background-color: rgba(16, 29, 66, 1);
+    font-size: 18px;
+}
+
+/*
+SCSS RGB *
+$pale-spring-bud: rgba(214, 214, 177, 1);
+$columbia-blue: rgba(184, 212, 227, 1);
+$coffee: rgba(129, 82, 63, 1);
+$oxford-blue: rgba(16, 29, 66, 1);
+$rifle-green: rgba(71, 88, 65, 1);
+*/
+
+

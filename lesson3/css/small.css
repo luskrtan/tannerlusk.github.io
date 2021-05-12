@@ -102,16 +102,29 @@ footer a:hover{
     min-width: 150px;
 }
 
+#sitecolorpalette{
+    width: 50%;
+    min-width: 400px;
+}
+
+#colorpalettelink{
+    color:rgba(71, 88, 65, 1);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+
+
+
 
 
 /*
 SCSS RGB *
-$pale-spring-bud: rgba(214, 214, 177, 1);
-$columbia-blue: rgba(184, 212, 227, 1);
-$coffee: rgba(129, 82, 63, 1);
 $oxford-blue: rgba(16, 29, 66, 1);
 $rifle-green: rgba(71, 88, 65, 1);
 $ash-gray: rgba(204, 218, 209, 1);
+$coffee: rgba(129, 82, 63, 1);
 $burnished-brown: rgba(163, 119, 116, 1);
 font-family: 'Archivo Black', sans-serif;
 font-family: 'Tienne', serif;

@@ -11,11 +11,10 @@ header{
     padding-bottom: 10px;
     text-align:center;
     display: grid;
-    grid-template-columns: 1fr 110px 30px 3fr 1fr;   
+    grid-template-columns: 1fr 110px 10px 2.4fr 1fr;   
 }
 
 header #website_logo{
-    margin-left: 10px;
     width: 110px;
     grid-column: 2/3;
 }

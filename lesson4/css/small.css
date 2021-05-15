@@ -11,7 +11,7 @@ header{
     padding-bottom: 10px;
     text-align:center;
     display: grid;
-    grid-template-columns: 1fr 110px 30px 1fr 1fr;   
+    grid-template-columns: 1fr 110px 30px 2fr 1fr;   
 }
 
 header #website_logo{

@@ -16,6 +16,7 @@ header{
 
 header #website_logo{
     float: left;
+    margin-left: 10px;
     width: 110px;
     grid-column: 1/2;
 }
@@ -56,6 +57,10 @@ main p {
     color: rgba(16, 29, 66, 1);
     font-size: 18px;
     max-width: 75%;
+}
+
+.contentbox{
+    border: 1px dotted rgba(0,0,0,0.2);
 }
 
 h3{

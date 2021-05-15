@@ -1,8 +1,4 @@
 
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
 header{
     width: 100%;
     max-width: 1200px;
@@ -34,6 +30,9 @@ header#nameAndSlogan{
     justify-content: center;
 }
 
+h1{
+    font-size: 2em;
+}
 body{
     width: 100%;
     max-width: 1200px ;
@@ -118,7 +117,7 @@ footer{
 footer a{
     color: rgba(16, 29, 66, 1);
     text-decoration: none;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 a:hover{

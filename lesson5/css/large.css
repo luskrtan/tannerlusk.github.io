@@ -2,4 +2,31 @@
 nav ul#primaryNav li {
     width: 120px;
 }
+
+
+
+.herodiv{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+#weatherSummary{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(204, 218, 209, 1);
+    top: 30px;
+    left: 30px;
+    background-color:rgba(163, 119, 116, .6);
+    color: rgba(204, 218, 209, 1);
+}
+
+.herodiv img{
+    max-width: 1000px;
+}
+
+
+
+
 }

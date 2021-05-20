@@ -25,22 +25,14 @@
     }
 
     .herodiv{
-        position: relative;
         max-width: 800px;
-        margin: 0 auto;
         
     }
     #weatherSummary{
-        position: absolute;
         width: 280px;
         height: 180px;
-        border: 1px solid rgba(204, 218, 209, .5);
         top: 30px;
         left: 30px;
-        background-color:rgba(163, 119, 116, .9);
-        color: white;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: 30px 25px 25px 25px 25px 25px;
     }
     

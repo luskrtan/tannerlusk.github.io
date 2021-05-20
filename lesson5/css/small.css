@@ -1,4 +1,5 @@
 
+
 header{
     width: 100%;
     max-width: 1200px;
@@ -27,6 +28,10 @@ header #nameAndSlogan{
 #weatherhamburger{
     width: 30px;
     justify-content: center;
+}
+
+p {
+    font-family: 'Tienne', serif; 
 }
 
 h1{

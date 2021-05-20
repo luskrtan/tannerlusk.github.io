@@ -264,6 +264,55 @@ nav ul.hide {display: none;}
     padding-left: 10px;
 }
 
+.contact{
+    max-width: 600px;
+    margin: 2px auto;
+    background-color:rgba(163, 119, 116, .5);
+}
+
+.contact #contactMap {
+    display: none;
+}
+#contactText {
+    text-align: center; 
+}
+
+#contactText ul{
+    list-style-type: none;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 50%;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+
 footer{
     font-family: 'Tienne', serif;
     width: 100%;
@@ -287,3 +336,4 @@ footer a:hover{
     font-size: 16px;
     color:rgba(163, 119, 116, 1);
 }
+

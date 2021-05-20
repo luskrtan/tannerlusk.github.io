@@ -91,4 +91,20 @@
         border: 1px solid rgba(71, 88, 65, 1);
     }
 
+    .contact{
+        max-width: 800px;
+        border: 1px solid rgba(71, 88, 65, 1);
+        height: 300px;
+    }
+
+    .contact #contactMap {
+        display: block;
+        padding-top:10px;
+        padding-left: 10px;
+        width: 300px;
+        float: left;
+    }
+
+    
+
 }

@@ -78,15 +78,27 @@ main p {
     border: 1px dotted rgba(0,0,0,0.2);
 }
 
-h1{
+
+h1, h2, h3{
     font-family: 'Archivo Black', sans-serif;
+}
+
+h1, h2{
     color:rgba(71, 88, 65, 1);
+}
+
+h1{
     font-size: 30px;
 }
 
 h2{
-    font-family: 'Archivo Black', sans-serif;
+    
     color:rgba(71, 88, 65, 1); 
+}
+
+h3{
+    color: rgba(129, 82, 63, 1);
+    font-size: 16px;
 }
 
 nav {
@@ -140,6 +152,7 @@ nav ul.hide {display: none;}
 }
 #weatherSummary{
     position: absolute;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
     width: 260px;
     height: 150px;
     border: 1px solid rgba(204, 218, 209, .5);
@@ -235,6 +248,19 @@ nav ul.hide {display: none;}
     display: none;
 }
 
+.article{
+    display: block;
+    padding-left: 10px;
+    margin: 2px auto;
+    background-color: rgba(204, 218, 209, .5);
+    border: 1px solid rgba(71, 88, 65, 1);
+}
+
+.article img{
+    width: 400px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
+}
+
 footer{
     font-family: 'Tienne', serif;
     width: 100%;
@@ -256,5 +282,5 @@ footer a{
 
 footer a:hover{
     font-size: 16px;
-    
+    color:rgba(163, 119, 116, 1);
 }

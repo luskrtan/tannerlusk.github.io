@@ -9,7 +9,7 @@ document.getElementById("day3Name").innerHTML = dName[dayOfWeek+1];
 document.getElementById("day4Name").innerHTML = dName[dayOfWeek+2];
 document.getElementById("day5Name").innerHTML = dName[dayOfWeek+3];
 
-if (dayOfWeek == 4){
+if (dayOfWeek == 5){
     today.style.display = "block";
 } else {
     today.style.display = "none";

@@ -25,6 +25,10 @@ header #nameAndSlogan{
     padding-right: 10px;
 }
 
+header #nameAndSlogan h1{
+    color: rgba(204, 218, 209, 1);
+}
+
 #weatherhamburger{
     width: 30px;
     justify-content: center;
@@ -66,10 +70,10 @@ main p {
     border: 1px dotted rgba(0,0,0,0.2);
 }
 
-h3{
+h1{
     font-family: 'Archivo Black', sans-serif;
     color:rgba(71, 88, 65, 1);
-    font-size: 20px;
+    font-size: 30px;
 }
 
 nav {

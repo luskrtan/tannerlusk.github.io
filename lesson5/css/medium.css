@@ -44,4 +44,39 @@
         max-width: 800px;
     }
 
+    .forecast{
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+    }
+
+    .dayForecast img{
+        width: 95px;
+    }
+
+    #forecastBox{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: 100px 100px 100px 100px 100px;
+        grid-template-rows: 30px 1fr 1fr;
+        font-family: 'Archivo Black', sans-serif;
+    }
+
+    .whichday{
+        background-color: rgba(16, 29, 66, 1);
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .dayForecast{
+        padding-top: 5px;
+    }
+
+    .dayTemp{
+        text-align: center;
+        font-size: 18px;
+    }
+
 }

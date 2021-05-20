@@ -1,4 +1,12 @@
 
+#pancakeBanner{
+    font-family: 'Tienne', serif;
+    background-color: rgba(204, 218, 209, 1);
+    color:rgba(16, 29, 66, 1);
+    font-size: 22px;
+    height: 40px;
+    padding-top: 10px;
+}
 
 header{
     width: 100%;
@@ -74,6 +82,11 @@ h1{
     font-family: 'Archivo Black', sans-serif;
     color:rgba(71, 88, 65, 1);
     font-size: 30px;
+}
+
+h2{
+    font-family: 'Archivo Black', sans-serif;
+    color:rgba(71, 88, 65, 1); 
 }
 
 nav {
@@ -216,6 +229,10 @@ nav ul.hide {display: none;}
 
 .herodiv img{
     max-width: 600px;
+}
+
+.forecast{
+    display: none;
 }
 
 footer{

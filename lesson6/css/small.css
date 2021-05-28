@@ -156,7 +156,7 @@ nav ul.hide {display: none;}
     position: absolute;
     box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
     width: 320px;
-    height: 150px;
+    height: 170px;
     border: 1px solid rgba(204, 218, 209, .5);
     top: 15px;
     left: 15px;
@@ -164,7 +164,7 @@ nav ul.hide {display: none;}
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 25px 20px 20px 20px 20px 20px;
+    grid-template-rows: 25px 20px 20px 20px 20px 20px 20px;
 }
 
 #weatherSummaryTitle{
@@ -219,6 +219,17 @@ nav ul.hide {display: none;}
     grid-column: 2/3;
     grid-row: 6/7;
 }
+
+#windChill{
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+#wc {
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+
+
 
 
 #weatherSummaryTitle p{

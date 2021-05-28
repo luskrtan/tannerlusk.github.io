@@ -6,16 +6,14 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="../images/favicon.ico">
-<link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- Commented out and loaded via Google Web Font Loader <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Tienne&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
 <Title>Preston Home Page</Title>
-
 <link href="css/normalize.css" rel="stylesheet">
 <link href="css/small.css" rel="stylesheet">
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
-     
 </head>
 
 <body>
@@ -59,11 +57,13 @@
                 <div class="weatherDescriptor" id="humidity"><p>Humidity:</p></div>
                 <div class="weatherDescriptor" id="precipitation"><p>Precipitation:</p></div>
                 <div class="weatherDescriptor" id="windSpeed"><p>Wind Speed:</p></div>
+                <div class="weatherDescriptor" id="windChill"><p>Wind Chill:</p></div>
                 <div class="weatherStatus" id="curr"><p>Overcast</p></div>
-                <div class="weatherStatus" id="temp"><p>65 &deg;F</p></div>
+                <div class="weatherStatus" id="temp"><p><span id="wcTemp">50</span> &deg;F</p></div>
                 <div class="weatherStatus" id="humid"><p>20&percnt;</p></div>
                 <div class="weatherStatus" id="prec"><p>0.2 inches</p></div>
-                <div class="weatherStatus" id="wind"><p>NW 8mph</p></div>
+                <div class="weatherStatus" id="wind"><p>NW <span id="wcWind">8</span>mph</p></div>
+                <div class="weatherStatus" id="wc"><p><span id="wcResult"></span></p></div>
             </section>
         </div>
         <div class="forecast">
@@ -125,7 +125,15 @@
 <script src="js/date.js"></script>
 <script src="js/year.js"></script>
 <script src="js/getday.js"></script>
-    
+<script src="js/windchill.js"></script>    
 <script src="js/scripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Archivo Black', 'Tienne']
+        }
+    });
+</script>
 </body>
 </html>

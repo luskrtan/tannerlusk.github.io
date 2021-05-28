@@ -30,7 +30,7 @@
     }
     #weatherSummary{
         width: 350px;
-        height: 180px;
+        height: 200px;
         top: 30px;
         left: 30px;
         grid-template-rows: 30px 25px 25px 25px 25px 25px;

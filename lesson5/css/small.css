@@ -154,7 +154,7 @@ nav ul.hide {display: none;}
 #weatherSummary{
     position: absolute;
     box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
-    width: 260px;
+    width: 320px;
     height: 150px;
     border: 1px solid rgba(204, 218, 209, .5);
     top: 15px;
@@ -230,6 +230,7 @@ nav ul.hide {display: none;}
 
 .weatherDescriptor{
     text-align: right;
+    margin-left: 5px;
 }
 
 .weatherDescriptor p{

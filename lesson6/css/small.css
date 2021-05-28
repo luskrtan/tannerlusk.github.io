@@ -148,6 +148,10 @@ nav ul.hide {display: none;}
     margin: 0 auto;
     
 }
+
+.herodiv picture#heroimage img {
+    width: 100%;
+}
 #weatherSummary{
     position: absolute;
     box-shadow: 10px 10px 20px rgba(0,0,0,0.6);

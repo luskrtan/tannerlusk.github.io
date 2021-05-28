@@ -1,5 +1,9 @@
 @media only screen and (min-width: 36em){
 
+    #pancakeBanner{
+        height: 60px;
+    }
+
     nav button{display: none;}
 
     nav ul#primaryNav {

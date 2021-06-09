@@ -484,7 +484,7 @@ main.stormCenterMain form label.ontop input:required:valid {
     border-left: rgba(0, 128, 0, 0.6) solid 6px;
 }
 
-main.stormCenterMain form label.ontop input[type="textbox"] {
+main.stormCenterMain form label.ontop input[type="textarea"] {
     width: 100%;
     height: 2.75rem;
 }

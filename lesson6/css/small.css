@@ -477,11 +477,11 @@ main.stormCenterMain form label.ontop input, main.stormCenterMain form label sel
 }
 
 main.stormCenterMain form label.ontop input:required {
-    border-left: red solid 6px;
+    border-left: rgba(255, 0, 0, 0.6) solid 6px;
 }
 
 main.stormCenterMain form label.ontop input:required:valid {
-    border-left: green solid 6px;
+    border-left: rgba(0, 128, 0, 0.6) solid 6px;
 }
 
 main.stormCenterMain form label.ontop input[type="textbox"] {

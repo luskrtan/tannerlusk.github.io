@@ -522,7 +522,7 @@ main.stormCenterMain form label.ontop input:required:valid {
   }
 
   main.stormCenterMain form label.side input#rating {
-      margin-top: 10px;
+      margin-top: 20px;
   }
 
   #ratingvalue {

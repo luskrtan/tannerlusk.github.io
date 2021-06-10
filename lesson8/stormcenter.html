@@ -44,7 +44,7 @@
             <legend>Storm Report Information</legend>
             <label class="ontop">Full Name*<input type="text" name="fname" pattern="[A-Za-z ]{5,}" title="Must contain 5 or more letters. No special characters or punctuation" required></label>
             <label class="ontop">Email<input type="email" name="email" placeholder="person@gmail.com"></label>
-            <label class="ontop">Phone Number*<input type="tel" name="phone" placeholder="12223334444" required></label>
+            <label class="ontop">Phone Number*<input type="tel" name="phone" pattern="[0-9]{10}" placeholder="12223334444" required></label>
             <label class="ontop">Zip Code of Storm*<input type="number" name="zipcode"  required></label>
             <label class="ontop">Storm Date <input type="date"></label>
             <label class="ontop">Storm Type <input list="stormtypes"></label>

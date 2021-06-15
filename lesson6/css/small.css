@@ -148,6 +148,9 @@ nav ul.hide {display: none;}
     margin: 0 auto;
     
 }
+ .herodiv h1 {
+     font-size: 1.4rem;
+ }
 
 .herodiv picture#heroimage img {
     width: 100%;
@@ -158,6 +161,7 @@ nav ul.hide {display: none;}
     width: 320px;
     height: 170px;
     border: 1px solid rgba(204, 218, 209, .5);
+    margin-top: 40px;
     top: 15px;
     left: 15px;
     background-color:rgba(163, 119, 116, .9);

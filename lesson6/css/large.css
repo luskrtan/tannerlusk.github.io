@@ -8,7 +8,9 @@
     width: 168px;
 }
 
-
+.herodiv h1 {
+    font-size: 30px;
+}
 .herodiv{
     max-width: 1000px;
 }

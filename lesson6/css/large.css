@@ -111,14 +111,30 @@ main.weatherGalleryMain {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 0 5px;
+    max-width: 1000px;
     
 }
 
 .homeCities article {
     flex-direction: column-reverse;
+    height: 430px;
+}
+
+.fishHavenHomeInfo, .sodaSpringsHomeInfo, .prestonHomeInfo {
+    margin-top: 0px;
 }
 .homeCities article:nth-child(odd){
     flex-direction: column-reverse;
+}
+
+.homeCities article:nth-child(even) section {
+    text-align: left;
+    margin-right: 0;
+}
+
+.homeCities article:nth-child(even) section p {
+    float: none;
 }
 
 

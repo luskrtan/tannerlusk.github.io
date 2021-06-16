@@ -577,14 +577,24 @@ main.stormCenterMain form label.ontop input:required:valid {
     display: flex;
     flex-direction: column-reverse;
     margin: 5px 5px;
+    width: 100%;
+    max-width: 320px;
+    background-color: rgba(204, 218, 209, 1);
+  }
+
+  .homeCities article h2, .homeCities article h3, .homeCities article p {
+      padding-left: 10px;
+      padding-top: 0px;
   }
 
   .homeCities article h3 {
       width: 250px;
   }
 
-  .homeCities article.fishHavenHomeInfo image {
+  .homeCities article img {
       margin-bottom: 0px;
+      width: 100%;
+      max-width: 320px;
   }
 
 

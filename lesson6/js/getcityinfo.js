@@ -31,7 +31,7 @@ fetch(requestURL)
 
           document.querySelector('article.prestonHomeInfo').appendChild(pCard);
 
-          //Code for Fish Haven
+          //Code for Soda Springs
           let ssCard = document.createElement('section');
           let ssName = document.createElement('h2');
           let ssMotto = document.createElement('h3');

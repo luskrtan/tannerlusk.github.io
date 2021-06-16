@@ -184,7 +184,7 @@
 
     .homeCities article {
         flex-direction: row;
-        max-width: 800px;
+        max-width: 590px;
     }
 
     .homeCities article:nth-child(odd){
@@ -193,8 +193,12 @@
 
     .homeCities article:nth-child(even) section {
         text-align: right;
+        margin-right: 10px;
+    }
+
+    .homeCities article:nth-child(even) section p {
         float: right;
-        margin-right: 0;
+        margin-top: 0;
     }
 
     

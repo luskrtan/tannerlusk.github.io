@@ -137,6 +137,10 @@ main.weatherGalleryMain {
     float: none;
 }
 
+.photocontest {
+    max-width: 1000px;
+}
+
 
 
 

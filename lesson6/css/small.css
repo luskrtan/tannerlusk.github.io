@@ -449,11 +449,11 @@ main.stormCenterMain form {
     
 }
 
-main.stormCenterMain form legend {
+ form legend {
     color:rgba(16, 29, 66, 1);
 }
 
-main.stormCenterMain form fieldset {
+main form fieldset {
     border: 1px solid rgba(16, 29, 66, 1);
     border-radius: 15px;
     font-family: 'Archivo Black', sans-serif;
@@ -480,11 +480,11 @@ main.stormCenterMain form label.ontop input, main.stormCenterMain form label sel
     border-radius: 5px;
 }
 
-main.stormCenterMain form label.ontop input:required {
+form label input:required {
     border-left: rgba(255, 0, 0, 0.6) solid 6px;
 }
 
-main.stormCenterMain form label.ontop input:required:valid {
+form label input:required:valid {
     border-left: rgba(0, 128, 0, 0.6) solid 6px;
 }
 
@@ -552,7 +552,7 @@ main.stormCenterMain form label.ontop input:required:valid {
       float: right;
   }
 
-  main.stormCenterMain form input.submission {
+   form input.submission {
       height: 44px;
       width: 20rem;
       background-color:rgba(71, 88, 65, 1);
@@ -580,6 +580,7 @@ main.stormCenterMain form label.ontop input:required:valid {
     width: 100%;
     max-width: 320px;
     background-color: rgba(204, 218, 209, 1);
+    border: 1px solid rgba(16, 29, 66, 1);
   }
 
   .homeCities article h2, .homeCities article h3, .homeCities article p {
@@ -595,6 +596,46 @@ main.stormCenterMain form label.ontop input:required:valid {
       margin-bottom: 0px;
       width: 100%;
       max-width: 320px;
+  }
+
+  .photocontest {
+      display: flex;
+      flex-direction: column;
+      max-width: 322px;
+      margin: 20px auto;
+      background-color: rgba(16, 29, 66, .2);
+      border-radius: 10px;
+  }
+
+  .photocontest section {
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+
+  .photocontest form {
+      height: 100%;
+      
+  }
+
+  .photocontest form fieldset{
+    display: flex;
+    flex-direction: column;
+      height: 100%;
+  }
+  .photocontest form label {
+      padding-top: 10px;
+      padding-bottom: 10px
+  }
+
+  .photocontest form label input {
+      display: block;
+      width: 250px;
+      height: 30px;
+  }
+
+  form input.submission#sendPhoto {
+      width: 100%;
   }
 
 

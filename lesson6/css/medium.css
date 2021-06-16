@@ -201,6 +201,11 @@
         margin-top: 0;
     }
 
+    .photocontest {
+        flex-direction: row;
+        max-width: 800px;
+    }
+
     
 
 }

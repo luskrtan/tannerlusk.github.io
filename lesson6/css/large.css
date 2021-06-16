@@ -107,6 +107,19 @@ main.weatherGalleryMain {
     grid-column: 3/4;
     grid-row: 4/5;
 }
+.homeCities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.homeCities article {
+    flex-direction: column-reverse;
+}
+.homeCities article:nth-child(odd){
+    flex-direction: column-reverse;
+}
 
 
 

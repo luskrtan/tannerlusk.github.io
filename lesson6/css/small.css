@@ -565,6 +565,28 @@ main.stormCenterMain form label.ontop input:required:valid {
       border-radius: 15px;
   }
 
+  .homeCities {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      
+  }
+
+  .homeCities article {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 5px 5px;
+  }
+
+  .homeCities article h3 {
+      width: 250px;
+  }
+
+  .homeCities article.fishHavenHomeInfo image {
+      margin-bottom: 0px;
+  }
+
 
   
 

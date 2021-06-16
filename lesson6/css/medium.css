@@ -182,4 +182,21 @@
         grid-row: 6/7;
     }
 
+    .homeCities article {
+        flex-direction: row;
+        max-width: 800px;
+    }
+
+    .homeCities article:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+
+    .homeCities article:nth-child(even) section {
+        text-align: right;
+        float: right;
+        margin-right: 0;
+    }
+
+    
+
 }

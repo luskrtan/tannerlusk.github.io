@@ -44,10 +44,73 @@ fetch(apiCurrURL)
 
 
     });
-
+const iconID = ['.dayForecast#day1Cast img', '.dayForecast#day2Cast img', '.dayForecast#day3Cast img', '.dayForecast#day4Cast img', '.dayForecast#day5Cast img'];
+const tempID = ['.dayTemp#day1Temp', '.dayTemp#day2Temp', '.dayTemp#day3Temp', '.dayTemp#day4Temp', '.dayTemp#day5Temp'];
+const iconSelector = ["../lesson6/images/sunnyweather.svg", "../lesson6/images/partlycloudy.svg", "../lesson6/images/mostlycloudy.svg", "../lesson6/images/rainy.svg", "../lesson6/images/thunderstorms.svg", "../lesson6/images/snowy.svg", "../lesson6/images/fog.svg"];
 const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=4fc8b76a49483bd4e1a5b6f9eea8cfae&units=imperial";
 fetch(apiForecastURL)
     .then((response) => response.json())
     .then((jsForecastObject) => {
         console.log(jsForecastObject);
+
+       for (let i = 5 ; i < 38 ; i = i+8){
+            let weatherID = jsForecastObject.list[i].weather[0].id;
+            let foreTemp = Math.round(jsForecastObject.list[i].main.temp);
+            let desc = jsForecastObject.list[i].weather[0].description;
+            let foreIcon = 8;
+
+            if (weatherID >= 803){
+                 foreIcon = iconSelector[2];
+            }
+            else if(weatherID >= 801){
+                 foreIcon = iconSelector[1];
+            }
+            else if(weatherID >= 800){
+                 foreIcon = iconSelector[0];
+            }
+            else if(weatherID >=701){
+                 foreIcon = iconSelector[6];
+            }
+            else if(weatherID >= 600){
+                 foreIcon = iconSelector[5];
+            }
+            else if(weatherID >= 300){
+                 foreIcon = iconSelector[3];
+            }
+            else{
+                 foreIcon = iconSelector[4];
+            }
+
+            
+            
+            switch (i){
+            case 5:
+            document.querySelector(iconID[0]).setAttribute('src', foreIcon);
+            document.querySelector(iconID[0]).setAttribute('alt', desc);
+            document.querySelector(tempID[0]).innerHTML = foreTemp + " &deg;F";
+            break;
+            case 13:
+            document.querySelector(iconID[1]).setAttribute('src', foreIcon);
+            document.querySelector(iconID[1]).setAttribute('alt', desc);
+            document.querySelector(tempID[1]).innerHTML = foreTemp + " &deg;F";
+            break;
+            case 21:
+            document.querySelector(iconID[2]).setAttribute('src', foreIcon);
+            document.querySelector(iconID[2]).setAttribute('alt', desc);
+            document.querySelector(tempID[2]).innerHTML = foreTemp + " &deg;F";
+            break;
+            case 29:
+            document.querySelector(iconID[3]).setAttribute('src', foreIcon);
+            document.querySelector(iconID[3]).setAttribute('alt', desc);
+            document.querySelector(tempID[3]).innerHTML = foreTemp + " &deg;F";
+            break;
+            case 37:
+            document.querySelector(iconID[4]).setAttribute('src', foreIcon);
+            document.querySelector(iconID[4]).setAttribute('alt', desc);
+            document.querySelector(tempID[4]).innerHTML = foreTemp + " &deg;F";
+            break;
+            }
+       }
+
+        
     });

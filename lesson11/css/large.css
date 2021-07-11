@@ -1,0 +1,148 @@
+@media only screen and (min-width: 56em){
+
+    #pancakeBanner {
+        height: 60px;
+    }
+
+    nav ul#primaryNav li {
+    width: 168px;
+}
+
+.herodiv h1 {
+    font-size: 30px;
+}
+.herodiv{
+    max-width: 1000px;
+}
+.herodiv img{
+    max-width: 1000px;
+}
+
+.article{
+    max-width: 1000px;
+}
+
+.contact{
+    max-width: 1000px;
+}
+
+main.weatherGalleryMain {
+    width: 100%;
+    max-width: 1240px;
+    display: grid;
+    margin: 2% auto;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.wgDiv{
+    max-width: 400px;
+}
+
+.wgDiv:hover {
+    box-shadow: 0 0 50px #333;
+    background-color:rgba(71, 88, 65, 1);
+    
+    
+}
+
+.wgDiv:hover h3 {
+    
+    color: rgba(204, 218, 209, 1);
+}
+
+.wgDiv picture img{
+    width: 100%;
+    max-width: 400px;
+}
+
+#wgTitle {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#sunnyImage {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#sunsetImage {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#starryImage {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#foggyImage {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#stormyImage {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#rainyImage {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#springImage {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#autumnImage {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#winterImage {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.homeCities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 5px;
+    max-width: 1000px;
+    
+}
+
+.homeCities article {
+    flex-direction: column-reverse;
+    height: 430px;
+}
+
+.fishHavenHomeInfo, .sodaSpringsHomeInfo, .prestonHomeInfo {
+    margin-top: 0px;
+}
+.homeCities article:nth-child(odd){
+    flex-direction: column-reverse;
+}
+
+.homeCities article:nth-child(even) section {
+    text-align: left;
+    margin-right: 0;
+}
+
+.homeCities article:nth-child(even) section p {
+    float: none;
+}
+
+.photocontest {
+    max-width: 1000px;
+}
+
+
+
+
+
+}

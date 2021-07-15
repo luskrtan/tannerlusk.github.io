@@ -28,6 +28,10 @@ header #website_logo{
     grid-column: 2/3;
 }
 
+header #website_logo a img {
+    width: 110px;
+}
+
 header #nameAndSlogan{
     grid-column: 4/5;
     padding-right: 10px;

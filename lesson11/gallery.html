@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Weather Gallery Final, Tanner Lusk">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<Title>Weather Gallery</Title>
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <img id="website_logo" src="../lesson6/images/website_logo.svg" alt="Website Logo">
+        <div id="nameAndSlogan">
+            <h1>Southeast Idaho Weather Watch</h1>
+            <div>We keep a weather eye on the horizon</div>
+        </div>
+    </header>
+    
+    
+    <nav class="clearfix">
+        <button onclick="toggleMenu()"><img id="weatherhamburger" src="../lesson6/images/weather_hamburger.svg" alt="weather hamburger"></button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li ><a href="../lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="activesite"><a href="#">Gallery</a></li>    
+        </ul>
+    </nav>
+    
+    
+    
+    <main class="weatherGalleryMain">
+            
+            <div id = "wgTitle">
+            <h1>Weather Gallery</h1>
+            </div> 
+
+            <div class= "wgDiv" id = "sunnyImage">
+            <picture>
+                <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/charlotte-descamps-rCmXwkErki0-unsplash_400x264.jpg' alt='Sunny Image'> 
+            </picture>
+            <h3>Sunny Image</h3>
+            </div>
+
+            <div class="wgDiv" id = "sunsetImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/artem-sapegin-8c6eS43iq1o-unsplash_400x264.jpg' alt='Sunset Image'> 
+                </picture>
+                <h3>Sunset Image</h3>
+            </div>
+            
+            <div class="wgDiv" id = "starryImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/jeremy-thomas-pq2DJBntZW0-unsplash_400x264.jpg' alt='Starry Image'> 
+                </picture>
+                <h3>Starry Image</h3>
+            </div>
+            
+            <div class="wgDiv" id = "foggyImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/rolf-hecken-WCrchkdrlwI-unsplash_400x264.jpg' alt='Foggy Image'> 
+                </picture>
+                <h3>Foggy Image</h3>
+            </div>
+
+            <div class="wgDiv" id = "stormyImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/noaa-5YryiYcFvtA-unsplash_400x264.jpg' alt='Stormy Image'> 
+                </picture>
+                <h3>Stormy Image</h3>
+            </div>
+
+            <div class="wgDiv" id = "rainyImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/arnold-mecses-eNpfF0f6x58-unsplash_400x264.jpg' alt='Rainy Image'> 
+                </picture>
+                <h3>Rainy Image</h3>
+            </div>
+
+            <div class="wgDiv" id = "springImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/eugene-zhyvchik-UTcj1RKZsxo-unsplash_400x264.jpg' alt='Spring Image'> 
+                </picture>
+                <h3>Spring Image</h3>
+            </div>
+
+            <div class="wgDiv" id = "autumnImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/craig-bradford-9bUkEBeXUUQ-unsplash_400x264.jpg' alt='Autumn Image'> 
+                </picture>
+                <h3>Autumn Image</h3>
+            </div>
+
+            <div class="wgDiv" id = "winterImage">
+                <picture>
+                    <img src ='images/WeatherGallery/imageplaceholder.png' data-src='images/WeatherGallery/debra-brewster-Wx0Yk9qepAU-unsplash_400x264.jpg' alt='Winter Image'> 
+                </picture>
+                <h3>Winter Image</h3>
+            </div>
+
+    </main>
+       
+<footer>
+    <span id='daysSinceVisit'>Days Since Last Visit: </span><span> | </span><a href="../index.html">Return to Portal</a> <br>&copy; <span id="currentyear"></span> | Tanner Lusk | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a> 
+    <br><span id="currentdate"></span>
+</footer>
+<script src="js/date.js"></script>
+<script src="js/dayssince.js"></script>
+<script src="js/year.js"></script>    
+<script src="js/scripts.js"></script>
+<script src="js/imageprocessing.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+    WebFont.load({
+        google: {
+            families: ['Archivo Black', 'Tienne']
+        }
+    });
+</script>
+</body>
+</html>

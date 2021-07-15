@@ -65,7 +65,7 @@ fetch(apiCurrURL)
     });
 const iconID = ['.dayForecast#day1Cast img', '.dayForecast#day2Cast img', '.dayForecast#day3Cast img', '.dayForecast#day4Cast img', '.dayForecast#day5Cast img'];
 const tempID = ['.dayTemp#day1Temp', '.dayTemp#day2Temp', '.dayTemp#day3Temp', '.dayTemp#day4Temp', '.dayTemp#day5Temp'];
-const iconSelector = ["../lesson6/images/sunnyweather.svg", "../lesson6/images/partlycloudy.svg", "../lesson6/images/mostlycloudy.svg", "../lesson6/images/rainy.svg", "../lesson6/images/thunderstorms.svg", "../lesson6/images/snowy.svg", "../lesson6/images/fog.svg"];
+const iconSelector = ["images/weathericons/sunnyweather.svg", "images/weathericons/partlycloudy.svg", "images/weathericons/mostlycloudy.svg", "images/weathericons/rainy.svg", "images/weathericons/thunderstorms.svg", "images/weathericons/snowy.svg", "images/weathericons/fog.svg"];
 
 fetch(apiForecastURL)
     .then((response) => response.json())

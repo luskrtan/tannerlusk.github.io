@@ -15,7 +15,6 @@
 </head>
 
 <body>
-    <div id="pancakeBanner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
 	<header>
         <img id="website_logo" src="images/website_logo.svg" alt="Website Logo">
         <div id="nameAndSlogan">
@@ -28,12 +27,12 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()"><img id="weatherhamburger" src="images/weather_hamburger.svg" alt="weather hamburger"></button>
         <ul id="primaryNav" class="hide">
-            <li><a href="../lesson9/index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="preston.html">Preston</a></li>
             <li class="activesite"><a href="sodasprings.html">Soda Springs</a></li>
             <li><a href="fishhaven.html">Fish Haven</a></li>
-            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>    
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>    
         </ul>
     </nav>
     
@@ -83,6 +82,11 @@
                     <div class="dayTemp" id="day5Temp"></div>
                 </div>
         </div>
+        <div class="events">
+            <h1>Upcoming Events</h1>
+            <article class="upcomingevents">
+            </article>
+        </div>
         <div class="article">
             <img src="images/sodaimages/danny-grizzle-c6ld6uEtgcY-unsplash.jpg" alt="soda springs geyser">
             <h2 class="articleText">Blowing Off Steam</h2>
@@ -122,6 +126,7 @@
 <script src="js/year.js"></script>
 <script src="js/getday.js"></script>    
 <script src="js/scripts.js"></script>
+<script src="js/getcityinfo.js"></script>
 <script src="js/forecast.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>

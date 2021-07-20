@@ -19,6 +19,7 @@
 </head>
 
 <body class="homepage">
+    <banner id="weatheralert"><button onclick="closeAlert()"><img src="images/xicon.svg"></button><p></p></banner>
 	<header>
         <div id="site_logo">
             <img src="images/commerce_logo.svg" alt="Website Logo">
@@ -39,23 +40,6 @@
         </ul>
     </nav>
     <main class="mainhome">
-    <div id="home2ndcontainer">
-        <div id="purpose">
-            <h1>Our Purpose</h1>
-            <p>The Rexburg Chamber of Commerce is here to help you and your business grow fast enough to meet
-                the demands of our quickly growing community. Here, you will have access to our whole network
-                take full advantage of Rexburg's potential. Here, you can expand your learning of important business
-                topics to give you an edge. And finally, at the Rexburg Chamber of Commerce, you will find people willing to 
-                be your advocate through it all.
-            </p>
-        </div>
-        <div id="call">
-            <h1>Do Business. Better</h1>
-            <p>We are always looking for new members to join us. We can do this together! Help us help you!</p>
-            <a href="join.html"><button>Begin Membership</button></a>
-        </div>
-    <img src="images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg" alt="business meeting">
-</div>
     <h1 id="homewelcome">Helping one another achieve since 2004</h1>
     <div id="home1stcontainer">
         <img id="commercebuildingphoto" src="images/mateus-campos-felipe-ZebJ7zZinjM-unsplash.jpg" alt="commerce building">
@@ -76,9 +60,54 @@
         </div>
 
     </div>
-    
+    <div id="home2ndcontainer">
+        <div id="purpose">
+            <h1>Our Purpose</h1>
+            <p>The Rexburg Chamber of Commerce is here to help you and your business grow fast enough to meet
+                the demands of our quickly growing community. Here, you will have access to our whole network
+                take full advantage of Rexburg's potential. Here, you can expand your learning of important business
+                topics to give you an edge. And finally, at the Rexburg Chamber of Commerce, you will find people willing to 
+                be your advocate through it all.
+            </p>
+        </div>
+        <div id="call">
+            <h1>Do Business. Better</h1>
+            <p>We are always looking for new members to join us. We can do this together! Help us help you!</p>
+            <a href="join.html"><button>Begin Membership</button></a>
+        </div>
+    <img src="images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg" alt="business meeting">
+</div>
     <div id="home3rdcontainer">
         <img src="images/rexburg_watertower.jpg" alt="rexburg watertower">
+        <div id="weatherinfo">
+            <div id="currentweather">
+                <h2>Today's Weather at a Glance</h2>
+                <div class="weatherdesc" id="currdesc">Conditions:</div>
+                <div class="weatherdesc" id="currtemp">Temperature:</div>
+                <div class="weatherdesc" id="currhumidity">Humidity:</div>
+                <div class="weathercondition" id="description"></div>
+                <div class="weathercondition" id="temp"></div>
+                <div class="weathercondition" id="humidity"></div>
+            </div>
+            <div id="threedayforecast">
+                <h2>3 Day Forecast</h2>
+                <div class="dayforecast" id="day1">
+                    <p id="date1"></p>
+                    <p id="temp1"></p>
+                    <p id="desc1"></p>
+                </div>
+                <div class="dayforecast" id="day2">
+                    <p id="date2"></p>
+                    <p id="temp2"></p>
+                    <p id="desc2"></p>
+                </div>
+                <div class="dayforecast" id="day3">
+                    <p id="date3"></p>
+                    <p id="temp3"></p>
+                    <p id="desc3"></p>
+                </div>
+            </div>
+        </div> 
     </div>
     
     
@@ -87,6 +116,7 @@
 <footer><a href="../index.html">Return to Portal</a> <br> &copy; <span id="currentyear"></span> , Rexburg Chamber of Commerce <br><a id="attributionslink" href="attributions.html">Attributions</a> |<span id="currentdate"></span>
     <script src="js/date.js"></script>
     <script src="js/togglemenu.js"></script>
+    <script src="js/weatherupdate.js"></script>
 </footer>
 
     

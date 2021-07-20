@@ -12,9 +12,6 @@ header{
     padding-top: 10px;
 }
 
-body {
-    margin: 0 auto;
-}
 
 header #site_logo{
     padding-left: 5px;
@@ -73,6 +70,28 @@ h1#homewelcome, div#tlcheader {
     text-align: center;
 }
 
+#weatheralert {
+    background-color: rgba(6, 167, 125, .5);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#weatheralert button{
+    margin: 5px auto;
+    border: none;
+    color:rgba(215, 38, 56, 1);
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+#weatheralert button img{
+    width: 30px;
+    
+}
+
+#weatheralert p {
+    padding-bottom: 10px;
+}
 
 nav {
     background-color: rgba(38,38,38,1);
@@ -146,7 +165,7 @@ div#home1stcontainer {
 }
 
 div#home2ndcontainer {
-    margin: 20px 20px;
+    margin: 40px 20px;
 }
 
 div#home2ndcontainer img {
@@ -204,6 +223,80 @@ div#call{
     width: 270px;
     min-width: 270px;
     margin-bottom: 20px;
+}
+
+div#currentweather{
+    display: grid;
+    grid-template-rows: 50px 20px 20px 20px;
+    grid-template-columns: 100px 200px;
+    border: 1px solid rgba(215, 38, 56, 1);
+    height: 250px;
+
+}
+
+div#currentweather h2{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    text-align: center;
+
+}
+
+#weatherinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.weatherdesc {
+    text-align: right;
+    font-size: 1.1rem;
+}
+.weathercondition {
+    text-align: center;
+}
+
+#currdesc{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+#currtemp{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+#currhumidity{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+#description{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+#temp{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+#humidity{
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+div#threedayforecast {
+    display: grid;
+    grid-template-rows: 50px 200px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+div#threedayforecast h2 {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.dayforecast{
+    text-align: center;
 }
 
 

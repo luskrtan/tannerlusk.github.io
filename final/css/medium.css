@@ -51,6 +51,10 @@
         column-gap: 1rem;
     }
 
+    div#purpose, div#call {
+        margin-right: 20px;
+    }
+
     div#tlcheader {
         grid-row: 1/2;
         grid-column: 1/4;
@@ -75,7 +79,7 @@
     div#home2ndcontainer {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
 }

@@ -126,8 +126,11 @@ a:hover {
     
 }
 
-nav ul {
+ul {
     list-style-type: none;
+}
+
+nav ul {
     padding-left: 0px;
     width: 100%;
     margin-bottom: 0px;
@@ -165,11 +168,16 @@ div#home1stcontainer {
 }
 
 div#home2ndcontainer {
-    margin: 40px 20px;
+    margin: 40px 40px;
+    background-color: rgba(215, 38, 56, .2);
+    padding: 15px 15px; 
+
 }
 
 div#home2ndcontainer img {
     max-height: 266px;
+    max-width: 400px;
+    width: 100%;
 }
 
 div#home2ndcontainer button {
@@ -215,43 +223,76 @@ div#firstcompany, div#secondcompany, div#thirdcompany{
 
 div#purpose{
     max-width: 576px;
+    width: 100%;
     
 }
 
 div#call{
     margin-left: 20px;
-    width: 270px;
-    min-width: 270px;
+    max-width: 270px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
 div#currentweather{
     display: grid;
-    grid-template-rows: 50px 20px 20px 20px;
-    grid-template-columns: 100px 200px;
-    border: 1px solid rgba(215, 38, 56, 1);
+    grid-template-rows: 80px 40px 40px 40px;
+    grid-template-columns: 110px 200px;
+    border: 2px solid rgba(215, 38, 56, 1);
+    background-color: rgba(234, 234, 234, 1);
     height: 250px;
+    max-width: 480px;
+    min-width: 330px;
+    padding: 0 5px;
+}
+
+div#home3rdcontainer img{
+    max-height: 225px;
+    max-width: 400px;
+    width: 100%;
 
 }
 
+
+
+div#contactsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(6, 167, 125, .2);
+    margin: 20px auto;
+}
 div#currentweather h2{
     grid-row: 1/2;
     grid-column: 1/3;
     text-align: center;
+}
 
+div#contactsection a h1:hover{
+    color:rgba(6, 167, 125, 1);
 }
 
 #weatherinfo {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .weatherdesc {
     text-align: right;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    font-family: 'Noto Serif JP', serif;
+    padding-left: 5px;
+    color:rgba(38, 38, 38, 1);
 }
 .weathercondition {
     text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Fjalla One', sans-serif;
+    color:rgba(215, 38, 56, 1);
+    font-weight: bold;
+    
 }
 
 #currdesc{
@@ -286,7 +327,11 @@ div#currentweather h2{
 div#threedayforecast {
     display: grid;
     grid-template-rows: 50px 200px;
-    grid-template-columns: 150px 150px 150px;
+    grid-template-columns: 110px 110px 110px;
+    border: 2px solid rgba(215, 38, 56, 1);
+    min-width: 340px;
+    background-color: rgba(234, 234, 234, 1);
+
 }
 
 div#threedayforecast h2 {
@@ -298,6 +343,49 @@ div#threedayforecast h2 {
 .dayforecast{
     text-align: center;
 }
+
+#date1, #date2, #date3 {
+    font-family: 'Fjalla One', sans-serif;
+    color:rgba(6, 167, 125, 1);
+    font-size:larger;
+    font-weight: bolder;
+}
+
+#temp1, #temp2, #temp3 {
+    font-family: 'Fjalla One', sans-serif;
+    color:rgba(215, 38, 56, 1);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 50%;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
 
 
 footer {

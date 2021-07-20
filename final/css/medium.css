@@ -79,7 +79,12 @@
     div#home2ndcontainer {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        
     }
+
+    div#purpose{ min-width: 390px; }
+
 
 }

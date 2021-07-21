@@ -1,0 +1,67 @@
+{
+    "businesses": [
+        {
+            "name": "Alpha Graphics",
+            "photo": "alphagraphicslogo.png",
+            "phone": "(208) 357-9784",
+            "website": "https://www.alphagraphics.com/us-idaho-rexburg-us643",
+            "address": "80 S 2nd W, Rexburg, ID"
+        },
+        {
+            "name": "The Backsmith Chiropractic Center",
+            "photo": "backsmithlogo.png",
+            "phone": "(208) 359-2313",
+            "website": "https://thebacksmith.com/",
+            "address": "45 E Main St, Rexburg, ID"
+        },
+        {
+            "name": "Thurcorp",
+            "photo": "thurcorp_logo.png",
+            "phone": "(208) 372-8725",
+            "website": "https://thurcorp.com/home",
+            "address": "125 E 1st N, Rexburg, ID"
+        },
+        {
+            "name": "Teton Lakes Golf Course",
+            "photo": "tetonlakeslogo.jpg",
+            "phone": "(208) 359-3036",
+            "website": "http://tetonlakesgc.com/",
+            "address": "722 N 12th W, Rexburg, ID"
+        },
+        {
+            "name": "Rigby Andrus & Rigby Law, PLLC",
+            "photo": "rigbyandrusrigbylawlogo.jpg",
+            "phone": "(208) 356-3633",
+            "website": "https://www.rex-law.com/",
+            "address": "25 N 2nd E, Rexburg, ID"
+        },
+        {
+            "name": "The Development Company",
+            "photo": "thedevcompanylogo.png",
+            "phone": "(208) 356-4524",
+            "website": "https://www.thedevco.net/",
+            "address": "299 E 4th N, Rexburg, ID"
+        },
+        {
+            "name": "H.A.S. Inc.",
+            "photo": "hasinclogo.png",
+            "phone": "(208) 359-3027",
+            "website": "https://www.hasincorporated.com/",
+            "address": "46 Professional Plaza, Rexburg, ID"
+        },
+        {
+            "name": "Paul Mitchell The School Rexburg",
+            "photo": "paulmitchelllogo.jpg",
+            "phone": "(208) 656-0800",
+            "website": "https://paulmitchell.edu/rexburg",
+            "address": "557 Mariah Ave, Rexburg, ID"
+        },
+        {
+            "name": "Circle of Love",
+            "photo": "circleoflovelogo.png",
+            "phone": "(208) 356-0058",
+            "website": "https://www.mycircleoflove.com/",
+            "address": "64 E Main St, Rexburg, ID"
+        }
+    ]  
+}

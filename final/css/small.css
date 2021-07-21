@@ -405,7 +405,7 @@ footer a#attributionslink:hover {
     color: rgba(6, 167, 125, 1);
 }
 
-main.mainrexburg {
+main.mainrexburg, main.mainjoin {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -516,5 +516,47 @@ div.business div {
     font-size: 1rem;
     max-width: 500px;
     font-family: "Noto Serif JP", serif;
+}
+
+form label {
+    font-family: "Noto Serif JP", serif;
+}
+
+form label.ontop input {
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+main.mainjoin form label.ontop input, main.mainjoin form label select.ontop {
+    display: block;
+    height: 44px;
+    width: 75%;
+    background-color: rgba(6, 167, 125, .2);
+    border-radius: 5px;
+}
+
+
+
+form label input:required {
+    border-left: rgba(215, 38, 56, 1) solid 6px;
+}
+
+form label input:required:valid {
+    border-left: rgba(6, 167, 125, 1) solid 6px;
+}
+
+form label input#formdesc {
+    height: 100px;
+}
+
+#annualfee {
+    font-family: "Fjalla One", sans-serif;
+    color:rgba(6, 167, 125, 1);
+    font-size: 1.3rem;
+}
+
+#annualfee span {
+    font-family: "Noto Serif JP", serif;
+    color: rgba(38,38,38, 1);
 }
 

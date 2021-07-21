@@ -593,7 +593,7 @@ main.maindirectory{
 }
 
 
-div.businesscontainergrid {
+div.businesscontainergrid, div.businesscontainerlist {
     display: block;
     border:1px solid rgba(215, 38, 56, 1);
     width: 100%;
@@ -602,15 +602,15 @@ div.businesscontainergrid {
     height: 230px;
 }
 
-div.businesscontainergrid img, div.businesscontainergrid section {
+div.businesscontainergrid img, div.businesscontainergrid section, div.businesscontainerlist img, div.businesscontainerlist section {
     width: 100%;
 }
 
-div.businesscontainergrid img{
+div.businesscontainergrid img, div.businesscontainerlist img{
     max-width: 150px;
 }
 
-div.businesscontainergrid section {
+div.businesscontainergrid section, div.businesscontainerlist section {
     font-size: .7rem;
     max-width: 180px;
 }

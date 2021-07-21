@@ -42,6 +42,15 @@
         justify-content: center;
     }
 
+    div.listview#toprow, div.listview#middlerow, div.listview#bottomrow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+
     button#gridbutton, button#listbutton {
         display: inline;
         margin: 20px 0;
@@ -50,6 +59,7 @@
 
     button#gridbutton:hover, button#listbutton:hover {
         background-color: rgba(6, 167, 125, 0.5);
+    
     }
 
     button#gridbutton img, button#listbutton img {
@@ -58,6 +68,27 @@
 
     .activebutton {
         background-color: rgba(6, 167, 125, 0.3);
+    }
+
+    .businesscontainerlist#bus1, .businesscontainerlist#bus2, .businesscontainerlist#bus3, .businesscontainerlist#bus4, .businesscontainerlist#bus5, .businesscontainerlist#bus6, .businesscontainerlist#bus7, .businesscontainerlist#bus8, .businesscontainerlist#bus9 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    div.businesscontainerlist {
+        max-width: 800px;
+        height: auto;
+    }
+    div.businesscontainerlist img{
+        width: 300px;
+        max-width: none;
+        height: min-content;
+    }
+
+    div.businesscontainerlist section{
+        padding-left: 30px;
+        font-size: 1.2rem;
     }
 
 }

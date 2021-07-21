@@ -39,11 +39,35 @@
             <li><a href="contact.html">Contact Us</a></li> 
         </ul>
     </nav>
-<main class="mainrexburg">
-
+<main class="mainjoin">
+    <h1>Help us Help You</h1>
+    <form method="get" action="submission.html">
+        <fieldset>
+            <legend>Membership Application</legend>
+            <label class="ontop">First Name: <input type="text" pattern="[A-Za-z ]{5,}" title="Must contain 5 or more letters. No special characters or punctuation" required></label>
+            <label class="ontop">Last Name: <input type="text" pattern="[A-Za-z ]{5,}" title="Must contain 5 or more letters. No special characters or punctuation" required></label>
+            <label class="ontop">Title: <input type="text"></label>
+            <label class="ontop">Email: <input type="email" name="email" placeholder="person@gmail.com" required></label>
+            <label class="ontop">Phone Number: <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="12223334444"></label>
+            <label class="ontop">Business Name: <input type="text" name="businessname" required></label>
+            <label class="ontop">Business Address: <input type="text" name="businessaddress"></label>
+            <label class="ontop">Business Website: <input type="url" name="businesswebsite"></label>
+            <label class="ontop">Business Description: <input type="text" id="formdesc" name="businessdesc"></label>
+            <h3>Membership Level: </h3>
+            <label><input type="radio" oninput=membershipInfo(this.value) name="membership" value="nonprofit"><span class="radioanswer"> Non-profit</span></label><br>
+            <label><input type="radio" oninput=membershipInfo(this.value) name="membership" value="bronze"><span class="radioanswer"> Bronze</span></label><br>
+            <label><input type="radio" oninput=membershipInfo(this.value) name="membership" value="silver"><span class="radioanswer"> Silver</span></label><br>
+            <label><input type="radio" oninput=membershipInfo(this.value) name="membership" value="gold"><span class="radioanswer"> Gold</span></label>
+            <div id="membershipexplanation">
+                <p id="annualfee">Annual Fee: <span id="priceamount"></span></p>
+                <p id="membershipdescription"></p>
+            </div>
+        </fieldset>
+    </form>
 </main>   
 </body>
 <footer><a href="../index.html">Return to Portal</a> <br> &copy; <span id="currentyear"></span> , Rexburg Chamber of Commerce <br><a id="attributionslink" href="attributions.html">Attributions</a> |<span id="currentdate"></span>
     <script src="js/date.js"></script>
+    <script src="js/membership.js"></script>
     <script src="js/togglemenu.js"></script>
 </footer>

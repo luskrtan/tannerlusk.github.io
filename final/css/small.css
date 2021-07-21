@@ -533,7 +533,27 @@ form label.ontop input {
     margin-bottom: 30px;
 }
 
-main.mainjoin form label.ontop input, main.mainjoin form label select.ontop {
+form input.submission {
+    border:1px solid rgba(38, 38, 38, 1);
+    background-color:rgba(6, 167, 125, 1);
+    color: rgba(234, 234, 234,1);
+    font-family: "Fjalla One", sans-serif;
+    font-size: 2rem;
+    height: 80px;
+    width: 380px;   
+}
+
+form input.submission:hover {
+    border: 1px solid rgba(234, 234, 234,1);
+    background-color: rgba(6, 167, 125, .2);
+    color:rgba(38,38,38, 1);
+}
+
+input#submitapplication.submission {
+    margin: 40px auto;
+}
+
+main.mainjoin form label.ontop input {
     display: block;
     height: 44px;
     width: 75%;

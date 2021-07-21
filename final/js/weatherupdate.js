@@ -33,15 +33,15 @@ fetch(apiURL)
         document.getElementById("desc3").innerHTML = desc3;
 
         if (jsCurrObject.hasOwnProperty("alerts")){
-            document.querySelector("banner#weatheralert").style.display = "block";
-            document.querySelector("banner#weatheralert p").innerHTML = "Alert: " + jsCurrObject.alerts[0].description;
+            document.querySelector("div#weatheralert").style.display = "block";
+            document.querySelector("div#weatheralert p").innerHTML = "Alert: " + jsCurrObject.alerts[0].description;
         }
         else{
-            document.querySelector("banner#weatheralert").style.display = "none";
+            document.querySelector("div#weatheralert").style.display = "none";
         }  
     });
 
     function closeAlert() {
-        document.querySelector("banner#weatheralert").style.display = "none";
+        document.querySelector("div#weatheralert").style.display = "none";
         
     }

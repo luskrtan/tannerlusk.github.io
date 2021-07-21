@@ -36,8 +36,28 @@
         flex-direction: row-reverse;
     }
 
-    div#toprow, div#middlerow, div#bottomrow {
+    div.gridview#toprow, div.gridview#middlerow, div.gridview#bottomrow {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
+
+    button#gridbutton, button#listbutton {
+        display: inline;
+        margin: 20px 0;
+        border: none;
+    }
+
+    button#gridbutton:hover, button#listbutton:hover {
+        background-color: rgba(6, 167, 125, 0.5);
+    }
+
+    button#gridbutton img, button#listbutton img {
+        width: 50px;
+    }
+
+    .activebutton {
+        background-color: rgba(6, 167, 125, 0.3);
+    }
+
 }

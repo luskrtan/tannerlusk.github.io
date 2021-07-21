@@ -588,11 +588,13 @@ form label input#formdesc {
 main.maindirectory{
     max-width: 1000px;
     
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
 }
 
+
 div.businesscontainergrid {
+    display: block;
     border:1px solid rgba(215, 38, 56, 1);
     width: 100%;
     padding: 20px 10px;
@@ -613,9 +615,22 @@ div.businesscontainergrid section {
     max-width: 180px;
 }
 
-div#toprow, div#middlerow, div#bottomrow {
+div.gridview#toprow, div.gridview#middlerow, div.gridview#bottomrow {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+div.listview#toprow, div.listview#middlerow, div.listview#bottomrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button#gridbutton, button#listbutton {
+    display: none;
+}
+
+
 
 

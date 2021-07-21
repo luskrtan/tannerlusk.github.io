@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Contact Us Page, Tanner Lusk">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="images/commercefavicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<Title>Contact Us</Title>
+<link href="css/normalize.css" rel="stylesheet">
+<link href="css/small.css" rel="stylesheet">
+<link href="css/smallmedium.css" rel="stylesheet">
+<link href="css/medium.css" rel="stylesheet">
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body class="homepage">
+	<header>
+        <div id="site_logo">
+            <img src="images/commerce_logo.svg" alt="Website Logo">
+        </div>
+        <div id="sitename">
+            <h1>Rexburg Chamber of Commerce</h1>
+        </div>
+        <div id="siteslogan">Together We'll Ascend</div>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()"><img id="commercehamburger" src="images/hamburgericon.svg" alt="menu selector"></button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rexburg.html">Rexburg</a></li>
+            <li><a href="join.html">Join Today!</a></li>
+            <li class="activesite"><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact Us</a></li> 
+        </ul>
+    </nav>
+    <main class="maincontact">
+        <h1>We Want to Hear From You</h1>
+        <div id="contactcontainer">
+            <div id="contactform">
+                <form method="get" action="#">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <label class="ontop">Name: <input type="text" pattern="[A-Za-z ]{5,}" title="Must contain 5 or more letters. No special characters or punctuation"></label>
+                        <label class="ontop">Phone Number: <input type="tel" name="phone" pattern="[0-9]{10}" placeholder="12223334444"></label>
+                        <label class="ontop">Email: <input type="email" name="email" placeholder="person@gmail.com"></label>
+                        <label class="ontop">Comments: <textarea></textarea></label>
+                    </fieldset>
+                    <input id="submitcomment" type="submit" value="Submit Comment" class="submission">
+                </form>
+
+            </div>
+            <div id="googlemap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d605.1151178983316!2d-111.78418258942995!3d43.826205919854786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1626856465384!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="contactinfo">
+                <ul>
+                    <li><i class="material-icons">place</i> 22 W Main St </li>
+                    <li>Rexburg, ID 83440</li>
+                    <li><br></li>
+                    <li>&#9742; 1.222.333.4444</li>
+                    <li>&#9993;  rcoc@gmail.com</li>
+                    <li><br></li>
+                    <li><a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a></li>             
+                </ul>
+            </div>
+        </div>
+        <div id="boardofdirectors">
+            <h3>Board of Directors</h3>
+            <p>Robert Lewis, Sharon Tate, Leslie Waters, Frank Jean, Simon Robertson, Jeremy Boering, and Nathaniel May</p>
+        </div>
+    
+</main>   
+</body>
+<footer><a href="../index.html">Return to Portal</a> <br> &copy; <span id="currentyear"></span> , Rexburg Chamber of Commerce <br><a id="attributionslink" href="attributions.html">Attributions</a> |<span id="currentdate"></span>
+    <script src="js/date.js"></script>
+    <script src="js/togglemenu.js"></script>
+</footer>
+
+    

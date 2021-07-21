@@ -553,14 +553,24 @@ input#submitapplication.submission {
     margin: 40px auto;
 }
 
-main.mainjoin form label.ontop input {
+ form label.ontop input, form label.ontop textarea {
     display: block;
     height: 44px;
-    width: 75%;
     background-color: rgba(6, 167, 125, .2);
     border-radius: 5px;
 }
 
+main.mainjoin form label.ontop input, main.mainjoin form label.ontop textarea {
+    width: 75%;
+}
+
+main.maincontact form label.ontop input, main.maincontact form label.ontop textarea {
+    width: 100%;
+}
+
+form label.ontop textarea {
+    height: 100px;
+}
 
 form label input:required {
     border-left: rgba(215, 38, 56, 1) solid 6px;
@@ -629,6 +639,34 @@ div.listview#toprow, div.listview#middlerow, div.listview#bottomrow {
 
 button#gridbutton, button#listbutton {
     display: none;
+}
+
+main.maincontact h1 {
+    text-align: center;
+}
+#contactcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#googlemap{
+    width: 100%;
+    max-width: 600px;
+}
+
+#contactinfo {
+background-color: rgba(6, 167, 125, 0.3);
+width: 100%;
+text-align: center;
+}
+
+#boardofdirectors{
+    background-color: rgba(38,38,38, .2);
+    padding: 10px 10px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 10px auto;
 }
 
 

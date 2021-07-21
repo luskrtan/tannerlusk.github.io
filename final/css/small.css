@@ -518,6 +518,12 @@ div.business div {
     font-family: "Noto Serif JP", serif;
 }
 
+#membershipexplanation {
+    background-color: rgba(38,38,38, .2);
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
 form label {
     font-family: "Noto Serif JP", serif;
 }
@@ -534,7 +540,6 @@ main.mainjoin form label.ontop input, main.mainjoin form label select.ontop {
     background-color: rgba(6, 167, 125, .2);
     border-radius: 5px;
 }
-
 
 
 form label input:required {

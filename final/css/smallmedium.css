@@ -1,4 +1,4 @@
-@media only screen and (min-width: 36em){
+@media only screen and (min-width: 38em){
     
     div#home1stcontainer {
         display: flex;
@@ -10,5 +10,29 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    div#towninfo {
+        top: 30px;
+        right: 30px;
+        grid-template-rows: repeat(4, 50px);
+        grid-template-columns: 170px 260px ; 
+        background-color: rgba(6, 167, 125, 0.5);
+    }
+
+    #yearfounded, #namedafter, #elevation, #population{
+        font-size: 1.7rem;
+    }
+
+    #year, #founder, #elev, #currpopulation{
+        font-size: 1.3rem;
+    }
+
+    div.business {
+        flex-direction: row;
+    }
+
+    div.business:nth-child(even) {
+        flex-direction: row-reverse;
     }
 }

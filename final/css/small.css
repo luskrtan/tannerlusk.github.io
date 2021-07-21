@@ -236,7 +236,7 @@ div#call{
 
 div#currentweather{
     display: grid;
-    grid-template-rows: 80px 40px 40px 40px;
+    grid-template-rows: 80px 60px 40px 40px;
     grid-template-columns: 110px 200px;
     border: 2px solid rgba(215, 38, 56, 1);
     background-color: rgba(234, 234, 234, 1);
@@ -403,5 +403,118 @@ footer a#attributionslink {
 
 footer a#attributionslink:hover {
     color: rgba(6, 167, 125, 1);
+}
+
+main.mainrexburg {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ div.rexburgherodiv{
+     position: relative;
+ }
+
+div.rexburgherodiv img {
+    width: 100%;
+}
+
+div#towninfo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    grid-template-columns: 125px 245px ;
+    background-color: rgba(6, 167, 125, 0.7);
+    padding-top: 15px;
+    border: 1.5px solid rgba(234, 234, 234, 1);
+}
+
+#yearfounded, #namedafter, #elevation, #population {
+    text-align: right;
+    grid-column: 1/2;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.3rem;
+    color: rgba(234, 234, 234, 1);
+}
+#yearfounded {
+    grid-row: 1/2;
+}
+#namedafter {
+    grid-row: 2/3;
+}
+#elevation {
+    grid-row: 3/4;
+}
+#population {
+    grid-row: 4/5;
+}
+#year, #founder, #elev, #currpopulation {
+    text-align: center;
+    grid-column: 2/3;
+    font-size: 1.1rem;
+    font-family: "Noto Serif JP", serif;
+}
+#year {
+    grid-row: 1/2;
+}
+#founder {
+    grid-row: 2/3;
+}
+#elev{
+    grid-row: 3/4;
+}
+#currpopulation{
+    grid-row: 4/5;
+}
+
+div.events {
+    background-color: rgba(38,38,38, .2);
+    max-width: 1000px;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+}
+
+th {
+    text-align: left;
+    color: rgba(6, 167, 125, 1);
+    font-family: "Fjalla One",sans-serif;
+    font-size: 1.5rem;
+}
+
+th, td {
+    padding-right: 20px;
+}
+
+tr {
+    border-bottom: rgba(38,38,38, 1);
+}
+
+tr, td {
+    font-family: "Noto Serif JP",serif;
+}
+
+td.tabledate {
+    color: rgba(215, 38, 56, 1);
+    font-weight: bolder;
+}
+
+div.business {
+    background-color: rgba(215, 38, 56, .2);
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+div.business img {
+    max-width: 400px;
+    max-height: 266px;
+
+}
+
+div.business div {
+    padding: 20px 20px;
+    font-size: 1rem;
+    max-width: 500px;
+    font-family: "Noto Serif JP", serif;
 }
 

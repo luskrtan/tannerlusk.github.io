@@ -13,6 +13,7 @@
 <Title>Rexburg Chamber of Commerce</Title>
 <link href="css/normalize.css" rel="stylesheet">
 <link href="css/small.css" rel="stylesheet">
+<link href="css/smallmedium.css" rel="stylesheet">
 <link href="css/medium.css" rel="stylesheet">
 <link href="css/large.css" rel="stylesheet">
 
@@ -38,8 +39,71 @@
             <li><a href="contact.html">Contact Us</a></li> 
         </ul>
     </nav>
-    <main class="mainrexburg">
-        
+<main class="mainrexburg">
+        <div class="rexburgherodiv">
+            <picture id=rexburgheroimage>
+                <source media="(max-width: 560px)" srcset="images/rexburg_watertower_small.jpg">
+                <source media="(max-width: 800px)" srcset="images/rexburg_watertower_medium.jpg">
+                <img src="images/rexburg_watertower_large.jpg">
+            </picture>
+            <div id="towninfo">
+                <div class="towninfoname" id="yearfounded">Year Founded: </div>
+                <div class="towninfoname" id="namedafter">Named After: </div>
+                <div class="towninfoname" id="elevation">Elevation: </div>
+                <div class="towninfoname" id="population">Population</div>
+                <div class="towninfo" id="year">1883</div>
+                <div class="towninfo" id="founder">Thomas Edwin Ricks</div>
+                <div class="towninfo" id="elev">4,865 ft</div>
+                <div class="towninfo" id="currpopulation">29,400 (2019 Estimate)</div>
+            </div>
+        </div>
+        <h1>Upcoming Events</h1>
+        <div class="events">
+            <table id="rexburgevents">
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td class="tabledate">July 21</td>
+                    <td>Rexburg Police and Ray's Car Wash Event for D.A.R.E.</td>
+                    <td>279 N 2nd E, Rexburg, ID</td>
+                </tr>
+                <tr>
+                    <td class="tabledate">July 24</td>
+                    <td>Pioneer Days Parade</td>
+                    <td>St Anthony, ID</td>
+                </tr>
+                <tr>
+                    <td class="tabledate">July 2</td>
+                    <td>Classic Car Show</td>
+                    <td>135 W Main St, St Anthony, ID</td>
+                </tr>
+            </table>    
+        </div>
+        <h1>Support your Community</h1>
+        <div id="localbusinesses">
+            <div class="business">
+                <img src="images/rexburg_farmers_market.jpg">
+                <div>Come spend a morning at the Rexburg Farmers Market! Whether your wanting to enjoy some local produce, or start growing some produce of your own.  </div>
+            </div>
+            <div class="business">
+                <img src="images/pp_carousel.jpg">
+                <div>
+                    Porter Park has been in Rexburg since 1919, and offers a variety of attractions for families to relax. Come and take a ride on the Idaho Centennial Carousel, cool off at the Rexburg Splash Pad, and see local events at the Beehive Federal Credit Union.
+                </div>
+            </div>
+            <div class="business">
+                <img src="images/rexburg_tabernacle.jpg">
+                <div>
+                    The Rexburg Stake Tabernacle provides a look into the history of the town. Completed in 1911, this tabernacle held hundreds of gatherings for members of The Church of Jesus Christ of Latter-Day Saints until 1980. This beautiful building now serves as a civic center for the community.
+                </div>
+                
+            </div>
+        </div>
+
+
 </main>   
 </body>
 <footer><a href="../index.html">Return to Portal</a> <br> &copy; <span id="currentyear"></span> , Rexburg Chamber of Commerce <br><a id="attributionslink" href="attributions.html">Attributions</a> |<span id="currentdate"></span>

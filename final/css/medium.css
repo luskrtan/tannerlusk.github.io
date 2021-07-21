@@ -84,7 +84,15 @@
         
     }
 
+    div#home3rdcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
     div#purpose{ min-width: 390px; }
+
 
 
 }
